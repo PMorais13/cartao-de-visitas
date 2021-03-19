@@ -1,3 +1,17 @@
-#borderCard {
-    border-radius: 50% 50% 0 0/32% 32% 0 0;
+#borderRadiusCard {
+    border-radius: 50% 50% 0 0/26% 26% 0 0;
+}
+
+.card-size {
+    width: 24rem;
+}
+
+@media screen and (max-width: 1024px){
+    .card-size{
+        width: 17rem;
+    }
+
+    #borderRadiusCard {
+        border-radius: 50% 50% 0 0/17% 17% 0 0;
+    }
 }

@@ -2,18 +2,21 @@ import { NgModule } from '@angular/core';
 
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { CardProjetosComponent } from './components/navbar/components/card-projetos/card-projetos.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FeaturesRoutingModule } from '../features/features-routing.module';
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    CardProjetosComponent
+    FooterComponent
   ],
   imports: [
-      CommonModule
+      CommonModule,
+      FeaturesRoutingModule
   ],
   exports: [
-      NavbarComponent
+      NavbarComponent,
+      FooterComponent
   ]
 
 })

@@ -5,7 +5,10 @@ import { FeaturesRoutingModule } from './features-routing.module';
 
 import { FeaturesComponent } from './features.component';
 import { CardProfileComponent } from './components/card-profile/card-profile.component';
-import { IconsComponent } from './components/card-profile/components/icons/icons.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { FormationComponent } from './components/formation/formation.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 
@@ -13,7 +16,10 @@ import { IconsComponent } from './components/card-profile/components/icons/icons
   declarations: [
     FeaturesComponent,
     CardProfileComponent,
-    IconsComponent
+    ProjectsComponent,
+    FormationComponent,
+    ExperienceComponent,
+    ContactComponent
   ],
   imports: [
       CommonModule,
