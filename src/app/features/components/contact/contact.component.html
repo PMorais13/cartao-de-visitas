@@ -1,11 +1,32 @@
-<address>
-    <a type="button" class="btn btn-outline-dark" href="https://wa.me/55051984591854" target="_blank" (click)="copy(cod1)">
-        Fale comigo pelo Whatsapp!
-        <p #cod1>051-9 8459-1854</p>
-    </a>
+<div class="container-fluid">
+    <h3 class="text-center mt-5 my-5">
+        Entre em contato comigo pelas minhas redes sociais
+    </h3>
+        <div class="redesSociais">
+            <a type="button" class="btn btn-outline-dark" href="https://www.linkedin.com/in/paulo-henrique-9122a4188/" target="_blank">
+                Linkedin
+            </a>
 
-    <a type="button" class="btn btn-outline-dark" href="mailto:phmscout@gmail.com" (click)="copy(cod2)">
-        Me envie um email!
-        <p #cod2>phmscout@gmail.com</p>
-    </a>
-</address>
+            <a type="button" class="btn btn-outline-dark" href="https://github.com/PMorais13/" target="_blank">
+                Github
+            </a>
+        </div>
+    <h4 class="text-center mt-5 my-5">
+        Ou fale comigo pelo whatsapp e email
+    </h4>
+
+    <div class="container">
+        <address>
+            <a type="button" class="btn btn-outline-dark" href="https://wa.me/55051984591854" target="_blank"
+                (click)="copy(cod1)">
+                Fale comigo pelo Whatsapp!
+                <p #cod1>051-9 8459-1854</p>
+            </a>
+
+            <a type="button" class="btn btn-outline-dark" href="mailto:phmscout@gmail.com" (click)="copy(cod2)">
+                Me envie um email!
+                <p #cod2>phmscout@gmail.com</p>
+            </a>
+        </address>
+    </div>
+</div>
