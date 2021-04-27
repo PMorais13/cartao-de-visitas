@@ -9,6 +9,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { FormationComponent } from './components/formation/formation.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { ErrorComponent } from './components/error/error.component';
 
 
 
@@ -19,7 +20,8 @@ import { ContactComponent } from './components/contact/contact.component';
     ProjectsComponent,
     FormationComponent,
     ExperienceComponent,
-    ContactComponent
+    ContactComponent,
+    ErrorComponent
   ],
   imports: [
       CommonModule,

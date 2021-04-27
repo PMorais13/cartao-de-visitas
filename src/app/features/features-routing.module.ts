@@ -7,12 +7,17 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { FormationComponent } from './components/formation/formation.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { ErrorComponent } from './components/error/error.component';
 
 const routes: Routes = [
   {
     path: '',
     component: FeaturesComponent,
     children: [
+      {
+        path: '**',
+        component: ErrorComponent
+      },
       {
         path: '',
         component: CardProfileComponent
