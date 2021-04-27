@@ -12,4 +12,8 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  copy(codeElement: HTMLElement): void {
+    navigator.clipboard.writeText(codeElement.innerHTML);
+  }
+
 }

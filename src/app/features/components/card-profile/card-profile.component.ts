@@ -10,6 +10,8 @@ export class CardProfileComponent implements OnInit {
   
 
   constructor() { }
+
+  
   
   
   ngOnInit(): void {
